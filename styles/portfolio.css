@@ -13,11 +13,18 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 .nav-title{
-    color: #181818
+    
+
+    color: #181818;
+    text-align: center;
+    font-family: "Open Sans";
     font-size: 45px;
+    font-style: normal;
     font-weight: 800;
+    line-height: normal;
 
 }
 .text-primary{
@@ -27,6 +34,7 @@ nav{
 nav > ul{
     display: flex;
     align-items: center;
+    margin: 0 200px;
 }
 
 nav li {
@@ -47,5 +55,20 @@ nav a {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+    
+}
+/* header style */
+.header{
+    background: #FFF8F3;
+
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-picture{
+    width: 584px;
     
 }
